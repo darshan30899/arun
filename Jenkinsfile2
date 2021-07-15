@@ -2,29 +2,29 @@ pipeline {
     agent any
 
     stages {
-        stage('build') {
+        stage('build1') {
             steps {
-                echo 'this is a buid stage'
+                echo 'this is a buid stage1'
             }
         }
-        stage('test') {
+        stage('test1') {
             steps {
-                echo 'this is a test stage'
+                echo 'this is a test stage1'
             }
         }
-        stage('deploy') {
+        stage('deploy1') {
             steps {
-                echo 'this is deploy stage'
+                echo 'this is deploy stage1'
             }
         }
-        stage('staging') {
+        stage('staging1') {
             steps {
-                echo 'this is deploy on staging server'
+                echo 'this is deploy on staging server1'
             }
         }
-        stage('production') {
+        stage('production1') {
             steps {
-                echo 'this is deploy on production server'
+                echo 'this is deploy on production server1'
             }
         }
     }
